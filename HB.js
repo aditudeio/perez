@@ -1091,5 +1091,3 @@ function is_mobile (desktop_min_width) {
       }
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
-
-      
