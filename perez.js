@@ -1089,5 +1089,6 @@ function is_mobile (desktop_min_width) {
         googletag.defineSlot('/21733733414/Right_rail', [[160,600],[300,250],[300,600]], 'div-gpt-ad-1533854117021-0')
                  .addService(googletag.pubads());
       }
+    });
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
