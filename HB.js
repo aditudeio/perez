@@ -1,11 +1,8 @@
-<script type="application/javascript">
 var googletag = googletag || {};
 googletag.cmd = googletag.cmd || [];
 googletag.cmd.push(function() {
     googletag.pubads().disableInitialLoad()
 });
-</script>
-<script type="application/javascript">
 var DEFAULT_PREBID_TIMEOUT = 700;
 
 window.sovrn = window.sovrn || {};
@@ -1048,12 +1045,11 @@ if (typeof exports !== 'undefined') {
   exports.headersuite = window.sovrn.headersuite;
 }
 
-</script> 
 
 
 
 
-<script>function is_mobile (desktop_min_width) {
+function is_mobile (desktop_min_width) {
       var desktop_min_width = typeof desktop_min_width !== 'undefined' ? desktop_min_width : 481;
       if (document.documentElement.clientWidth < desktop_min_width ) {
           return true;
